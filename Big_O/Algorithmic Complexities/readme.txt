@@ -95,6 +95,9 @@ Asympotic Notation
         f(n) = ϴ(g(n)) if there exist positive constants n₀, c₁, and c₂ such that to the right of n₀, the value of f(n) always lies between c₁ x g(n) and c₂ x g(n) inclusive. 
         Pretty much means if your function f(n) lies between C₁ (upper bound) and C₂ (lower bound) then it would be f(n) = ϴ(g(n)). 
         
+        Slides link below:
+        
+        (https://archive.org/details/lecture2_202008/page/n7/mode/2up)
      
 
       
