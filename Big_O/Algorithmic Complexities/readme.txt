@@ -35,3 +35,21 @@ Week 1
         to find out about the log 10 of a 1000 = you're pretty much asking what is the 10^x = 1000. Which in turn will be 3. Log comes into play when we ware looking into               algorithims. Log n are like teams in th playoffs. You have 16 teams and they play eachother to make it to the next round. So from 16 -->8 --->4 ----> 2 ---> 1 that's
         how that would be calculated. 
         
+ Big O Notation 
+        is a way to cormalize fuzzy counting. It allows uss to talk fomally about how the runtime of an algorithm grows as the inputs grow. When we say that an algorithm is             O(f(n) if the number of simple operations the computer has to do is eventually less than a constant times f(n), as n increases. the operations will increase relative to
+        the size of n.
+        
+        O(n^2) would typically run when you have a nested loop. The run time will be slower because it is a loop inside a loop
+        
+        O(1) is usually the fastest if you only need the same amount of operations no matter how the value incrceases
+        
+        O(log n) is good too but not the fastest
+        
+        O(n) the operations grows relative to the value of n. Ex: as N grows to 50 sod do the operations
+        
+        
+        The numeric 
+        
+        
+        
+        
