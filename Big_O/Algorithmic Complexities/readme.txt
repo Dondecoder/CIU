@@ -31,3 +31,7 @@ Week 1
         
         O(n log n) 
         
+  Big O Notation 
+        to find out about the log 10 of a 1000 = you're pretty much asking what is the 10^x = 1000. Which in turn will be 3. Log comes into play when we ware looking into               algorithims. Log n are like teams in th playoffs. You have 16 teams and they play eachother to make it to the next round. So from 16 -->8 --->4 ----> 2 ---> 1 that's
+        how that would be calculated. 
+        
