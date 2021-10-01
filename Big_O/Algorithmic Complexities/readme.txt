@@ -47,8 +47,62 @@ Week 1
         
         O(n) the operations grows relative to the value of n. Ex: as N grows to 50 sod do the operations
         
+        Big O Shorthands
         
-        The numeric 
+        1. Arithmetic operations are constant
+        2. Variable assignement is constant
+        3. Accessing elements in an array (by index) or object (by key) is constant
+        4. In a loop, the complexity is the length of the loop times the complexity of whatever happens inside of the loop. 
+        
+        Space Complexity 
+        
+        We can us big O notation to analyze space complexity: how much additional memory do we need to allocate in order to run the code in our algorithm? 
+        
+Asympotic Notation
+    
+    Big O Notation
+        RAM model of computation - Random Access Machine . Whenever we access memory it takes 1 step in the RAM model. 
+        
+        The worst case complexity of an algorithm is the function defined by the maximum number of steps takent on any instance of size n. 
+        The best case complexity of an algorithm is the function defined by the minimum number of steps taken on any instance of size n.
+        The average - case complexity of the algrithm is the function defined by an average number of steps taken on any instance of size n. 
+        Each of these defines a numberical function: time vs size. 
+        
+        Best, worst and average are difficult to deal with precisely because the details are very complicated. It's easier to talk about upper and lower bounds of the function
+        Asymptotic notation (O,Θ,Ω) are as well as we can practically deal with complexity functions.  
+        
+        g(n) = O(f(n)) means C x f(n) is an upper bound on g(n). This means you can multiply f(n) by something so that O(f(n)) > g(n). Or g(n) < O(f(n)). this also mean there
+        is something you can multiply the constant by or C to make O(f(n)) bigger than g(n)
+        
+        g(n) = Ω(f(n)) means C x f(n) is a lower bound on g(n). Lower bound figure which means that g(n) > Ω(f(n)). There is some constant (C) x f(n) that makes it less than
+        g(n)
+        
+        g(n) = ϴ(f(n)) means C₁ x f(n) is an upper bound on g(n) and C₂ x f(n) is a lower bound on g(n).
+        
+        C, C₁ and C₂ are all constanst independent of n. 
+        
+        We are saying that something is big O of something else if all values hold true greater than N₀. This means just that as n increases as long as big O(n) is upper bound 
+        then it satisfies the solution 
+        
+        Formal Definitions
+        
+        f(n) = O(g(n)) if there are positive constansts n₀ and c such that to the right of n₀, the value of f(n) always lies on or below c x g(n). Pretty much means if any
+        value over n₀ makes O(g(n)) higher than your function or f(n) then it is f(n) = O(g(n))
+        
+        f(n) = Ω(g(n)) if there are positive constants n₀, the value of f(n) always lies on or above c x g(n). Pretty much means if any value over n₀ makes Ω(g(n)) lower
+        than your function or f(n) then it is f(n) = Ω(g(n))
+        
+        f(n) = ϴ(g(n)) if there exist positive constants n₀, c₁, and c₂ such that to the right of n₀, the value of f(n) always lies between c₁ x g(n) and c₂ x g(n) inclusive. 
+        Pretty much means if your function f(n) lies between C₁ (upper bound) and C₂ (lower bound) then it would be f(n) = ϴ(g(n)). 
+        
+     
+
+      
+        
+        
+        
+        
+        
         
         
         
