@@ -25,3 +25,9 @@ Week 1
         O(N) will grow in direct proportion to how large the array is 
 
         O(n^2) this means that the time to complete the search will be in proportion to the exponent value 
+        
+        O(log N) this occurs when data is decreased roughly by 50%. As N increases (log N) increases at a slower rate. O (log N) algorithms are very efficient because increasin         the amount of data has little effect at some point early on because the amount of data is halved on each run through
+
+        
+        O(n log n) 
+        
