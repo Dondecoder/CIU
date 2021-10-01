@@ -98,6 +98,9 @@ Asympotic Notation
         Slides link below:
         
         (https://archive.org/details/lecture2_202008/page/n7/mode/2up)
+        
+Asymptiotic Analysis is the study of how algorithims behave as the size of your data grows to infinity       
+ 
      
 
       
